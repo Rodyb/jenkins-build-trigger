@@ -20,9 +20,9 @@ pipeline {
         }
     }
     post {
-        success {
+        always {
             echo 'Run E2E Test pipeline!'
-            build job: 'E2E_tests_pipeline', parameters: [string(name: 'MY_PARAM', value: 'value from Build pipeline')]
+            build job: 'Rodyb/jenkinstest/master'
         }
     }
 
