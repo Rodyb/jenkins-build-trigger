@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Pipeline-1') {
+        stage('E2E_test_pipeline') {
             steps {
                 echo "Pipeline-1."
                 echo "MY_PARAM=${env.MY_PARAM}"

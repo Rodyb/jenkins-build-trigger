@@ -25,10 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7783353-c9fe-4438-93cc-60fae8c815fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/E2E_test_pipeline/Jenkinsfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipeline-1/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipeline-2/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipeline-3/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Jenkinsfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../KubernetesPod.yaml" beforeDir="false" />
@@ -71,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629056873914</updated>
       <workItem from="1629056875273" duration="415000" />
-      <workItem from="1629215824193" duration="1368000" />
+      <workItem from="1629215824193" duration="1759000" />
     </task>
     <servers />
   </component>

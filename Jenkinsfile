@@ -20,9 +20,10 @@ pipeline {
         }
     }
     post {
-        always {
+        success {
             echo 'Run E2E Test pipeline!'
-            build job: 'Pipeline-1/master", propagate: true, wait: true'
+            build job: 'E2E_tests_pipeline', parameters: [string(name: 'MY_PARAM', value: 'value from Build pipeline')]
         }
     }
+
 }
