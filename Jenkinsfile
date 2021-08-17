@@ -23,7 +23,7 @@ pipeline {
     post {
         always {
             echo 'Run E2E Test pipeline!'
-            build job: '/E2E_test_pipeline'
+            build job: '/E2E_test_pipeline/main'
         }
     }
 
