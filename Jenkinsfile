@@ -22,7 +22,7 @@ pipeline {
     post {
         always {
             echo 'Run E2E Test pipeline!'
-            build job: 'Pipeline-1/${env.BRANCH_NAME}", propagate: true, wait: true'
+            build job: 'Pipeline-1/master", propagate: true, wait: true'
         }
     }
 }
