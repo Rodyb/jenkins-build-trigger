@@ -22,7 +22,7 @@ pipeline {
     post {
         always {
             echo 'Run E2E Test pipeline!'
-            build job: 'Pipeline-1', 'Pipeline-2', 'Pipeline-3'
+            build job: 'Pipeline-1'
         }
     }
 }
