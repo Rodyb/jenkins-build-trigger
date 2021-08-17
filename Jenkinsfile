@@ -22,7 +22,7 @@ pipeline {
     post {
         always {
             echo 'Run E2E Test pipeline!'
-            build job: 'Rodyb/jenkinstest/master'
+            build job: 'jenkinstest/master'
         }
     }
 
