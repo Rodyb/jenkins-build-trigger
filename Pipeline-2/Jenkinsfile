@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Pipeline-2') {
+            steps {
+                echo "Pipeline-2"
+                echo "MY_PARAM=${env.MY_PARAM}"
+            }
+        }
+    }
+}
