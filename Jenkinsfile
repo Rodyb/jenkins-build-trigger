@@ -22,7 +22,7 @@ pipeline {
     post {
         always {
             echo 'Run E2E Test pipeline!'
-            build job: 'Rodyb/jenkins-build-pipeline-trigger/E2E_test_pipeline/master'
+            build job: '/E2E_test_pipeline/master'
         }
     }
 
